@@ -1,11 +1,7 @@
 # AI-Powered Fitness Repetition Counter
-This project introduces a fitness monitoring system that utilizes machine learning and computer vision to accurately count repetitions of specific exercises.
+Designed and implemented a fitness monitoring system leveraging Scikit-learn, OpenCV, and Mediapipe to track and analyze exercise repetitions with high accuracy for bicep curls, squats, and deadlifts.
 
-Key Features:
-
-- Real-time Pose Estimation: Employs Mediapipe for precise and efficient pose detection in live video streams, capturing the user's skeletal movements.   
-- Repetition Counting: Leverages scikit-learn to build and utilize pre-trained models to accurately count the number of repetitions performed for specific exercises, such as bicep curls, squats, and deadlifts.
-- Personalized Feedback: Provides users with real-time feedback on their exercise performance, including:
-- Repetition Count: Accurately tracks and displays the number of repetitions completed.
-- Form Guidance: Optionally provides feedback on exercise form based on pre-defined criteria.
-- User-Friendly Interface: A Flask-based web interface ensures a seamless user experience with intuitive interaction and clear visualization of exercise data.
+- Real-Time Pose Estimation: Utilized Mediapipe for efficient skeletal movement detection in live video streams.
+- Repetition Counting Models: Trained models using Random Forest and Decision Tree classifiers to accurately count exercise repetitions based on pose data.
+- Personalized Feedback: Provided real-time feedback, including precise repetition counts and optional guidance on exercise form using predefined criteria.
+- User-Friendly Interface: Developed a Flask-based web application with an intuitive interface, enabling seamless interaction and visualization of exercise metrics.
